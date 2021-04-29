@@ -39,4 +39,14 @@ Kurz und knapp: wirf ein neurales Netzwerk auf das Problem!
 Aber nicht unbedingt ein rekurrentes, bei dem wir nicht mehr verstehen, was zwischen den Zeitschritten passiert.
 Sondern einen Regressor innerhalb der Differentialgleichug des Oszillators!
 
-(gif fehlt leider hier noch...)
+![](out.gif?raw=true)
+
+Sieht noch etwas besser aus! Aber schon das Training dauerte eine gefühte Ewigkeit. Hier ist also noch viel Platz nach oben.
+
+Wichtige Fragestellungen:
+
+Wir trainieren wir solche Modelle am besten?
+
+Was macht sie genau, was macht sie in der Ausführung schnell?
+
+Wie genau bauen wir sie auf? In unserem Schaukelmodell wurde der Beschleunigungsterm verändert. Wo packen wir in größeren Modellen an?
