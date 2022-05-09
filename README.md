@@ -18,14 +18,14 @@ Nun kennen wir die Parameter des "Pendels" aber nicht.
 
 Was nun? Hier probieren wir, die Parameter des Oszillators (model) zu optimieren:
 
-![](wb_model.webm?raw=true)
+https://user-images.githubusercontent.com/53007095/167388204-fb2ad500-76de-4af6-9dbf-4baac0b40996.mp4
 
 Geht irgendwie in die richtige Richtung.. Aber der reibunsfreie Oszillator hält immer an seiner Amplitude fest.
 Das wollen wir so nicht und schreiben deshalb einfach mal einen linearen Reibungterm ins Modell.
 
 Auch jetzt optimieren wir wieder die Parameter:
 
-![](wb_lin_friction.gif?raw=true)
+https://user-images.githubusercontent.com/53007095/167388570-ee48f873-e2fa-4c46-a87c-4e49c6ea0693.mp4
 
 Das Ergebnis sieht schon besser aus! Amplitude geht runter. Aber zu schnell!
 
@@ -39,7 +39,7 @@ Kurz und knapp: wirf ein neurales Netzwerk auf das Problem!
 Aber nicht unbedingt ein rekurrentes, bei dem wir nicht mehr verstehen, was zwischen den Zeitschritten passiert.
 Sondern einen Regressor innerhalb der Differentialgleichug des Oszillators!
 
-![](out.gif?raw=true)
+https://user-images.githubusercontent.com/53007095/167390440-de463cf5-df7c-4f95-8b9e-21dfe4649c9d.mp4
 
 Sieht noch etwas besser aus! Aber schon das Training dauerte eine gefühte Ewigkeit. Hier ist also noch viel Platz nach oben.
 
