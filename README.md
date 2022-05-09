@@ -18,7 +18,7 @@ Nun kennen wir die Parameter des "Pendels" aber nicht.
 
 Was nun? Hier probieren wir, die Parameter des Oszillators (model) zu optimieren:
 
-![](wb_frictionless.gif?raw=true)
+![](wb_model.webm?raw=true)
 
 Geht irgendwie in die richtige Richtung.. Aber der reibunsfreie Oszillator hält immer an seiner Amplitude fest.
 Das wollen wir so nicht und schreiben deshalb einfach mal einen linearen Reibungterm ins Modell.
