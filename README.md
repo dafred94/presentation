@@ -1,5 +1,7 @@
 # Studentenprojekte bei Frederic Bruder
 
+(diese Seite am besten im neuen Tab ansehen unter https://github.com/dafred94/presentation#readme )
+
 ... zuerst eine kleine Einführung in mein Gebiet. Andere Vorschläge bzw. Themen weiter unten!
 
 ## Hauptforschungsgebiet: Grey Box Modeling
